@@ -4,23 +4,23 @@
 ## Innholdsfortegnelse
 1. [Domenemodell](#1-domenemodell)	
 2. [InformasjonService](#2-informasjonservice)
-    + Transfer	
-    + findHeftelser	
-    + findTidligereHeftelser	
-    + findOverdragelserAvRegisterenhetsrett	
-    + findTidligereOverdragelserAvRegisterenhetsrett	
-    + findRegisterenhetsendringer	
-    + findOverdragelserAvRegisterenhetsrettForPerson	
-    + findRettigheterForPerson	
-    + findRettigheterForRegisterenhet	
-    + findRettsstiftelserForDokument	
-    + findRettsstiftelse	
-    + findBorettslagsandelerForBorettslag	
+    + [Transfer](#transfer)	
+    + [findHeftelser](#findheftelser)	
+    + [findTidligereHeftelser](#findtidligereheftelser)	
+    + [findOverdragelserAvRegisterenhetsrett](#findoverdragelserAvregisterenhetsrett)
+    + [findTidligereOverdragelserAvRegisterenhetsrett](#findtidligereoverdragelserAvregisterenhetsrett)	
+    + [findRegisterenhetsendringer](#findregisterenhetsendringer)
+    + [findOverdragelserAvRegisterenhetsrettForPerson](#findoverdragelseravregisterenhetsrettforperson)	
+    + [findRettigheterForPerson](#findrettigheterforperson)
+    + [findRettigheterForRegisterenhet](#findrettigheterforregisterenhet)
+    + [findRettsstiftelserForDokument](#findrettsstiftelserfordokument)
+    + [findRettsstiftelse](#findrettsstiftelse)
+    + [findBorettslagsandelerForBorettslag](#findborettslagsandelerforborettslag)	
 3. [GrunnboksutskriftService](#3-grunnboksutskriftservice)	
-    + ubekreftetGrunnboksutskriftPdf	
-    + ubekreftetHistoriskGrunnboksutskriftPdf	
+    + [ubekreftetGrunnboksutskriftPdf](#ubekreftetgrunnboksutskriftpdf)
+    + [ubekreftetHistoriskGrunnboksutskriftPdf](#ubekreftethistoriskgrunnboksutskriftpdf)	
 4. [PersonService](#4-personservice)	
-    + findPersoner	
+    + [findPersoner](#findpersoner)
 5. [EndringsloggService](#5-endringsloggservice)	
 6. [NedlastingService](#6-nedlastingservice)	
 7. [IdentService](#7-identservice)	
@@ -200,7 +200,7 @@ Tjenesten finner først alle foreløpig registrerte meldinger som systemet har reg
 
 Det som returneres er id-ene til disse borettslagsandelene, samt den predikerte tilstanden til borettslagsandelene, borettslaget, borettslagets person, borettslagsandelenes adresser og adressenes kommuner, samt alle koder brukt i alt som er funnet så langt.
 
-##3. GrunnboksutskriftService
+## 3. GrunnboksutskriftService
 ### ubekreftetGrunnboksutskriftPdf
 #### Kort beskrivelse av tjenesten:
 Tjenesten gir oversikt over all tinglyst informasjon (som fortsatt er gjeldende) som er registrert på en registerenhet. 
