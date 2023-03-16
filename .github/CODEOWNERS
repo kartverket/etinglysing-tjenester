@@ -1,0 +1,10 @@
+# Lines starting with '#' are comments.
+# Each line is a file pattern followed by one or more owners.
+#
+# More information: https://docs.github.com/en/articles/about-code-owners
+#
+#------------------------------------------------------------------------------
+#
+# Denne koden forvaltes av:  Team DigiBok
+
+* @kartverket/digibok
