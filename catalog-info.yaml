@@ -8,7 +8,7 @@ metadata:
 spec:
   type: "documentation"
   lifecycle: "production"
-  owner: "Digibok"
+  owner: "digibok"
   system: "grunnbok"
 ---
 apiVersion: "backstage.io/v1alpha1"
